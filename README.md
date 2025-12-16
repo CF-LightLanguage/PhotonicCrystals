@@ -1,7 +1,46 @@
-This study aims to investigate the potential of machine learning (ML) as a complementary method in the field of photonics to characterize photonic crystals (PhCs). Making use of the available simulation software Comsol Multiphysics, the behavior of the electromagnetic wave’s propagation through the PhCs with various configurations can be demonstrated, and the resulting band structures visualized. Through supervised learning, specifically employing convolutional neural network (CNN) for image recognition, band structures can be predicted from previously unseen input data.
+# Machine Learning–Assisted Characterization of Photonic Crystals
 
-The first section of this study addresses the theory behind PhCs, exploring the relationship between solid states and electromagnetism, as well as the origin of band structures. Within the theoretical foundation, detailed explanations are given for the principles of ML and CNN, focusing particularly on the numerical operations essential for deep learning tasks.
+## Overview
+This project investigates the potential of **machine learning (ML)** as a complementary tool in **photonics** for the characterization of **photonic crystals (PhCs)**.
 
-The second section is structured into two parts: the first part outlines the simulation procedures for PhCs conducted within the Comsol software, while the second part provides a step-by-step explanation of the CNN architecture employed in this study.
+Using **COMSOL Multiphysics**, electromagnetic wave propagation through photonic crystals with varying configurations is simulated and the resulting **band structures** are generated and visualized. Building on this simulation data, a **supervised learning approach** is applied, employing a **convolutional neural network (CNN)** for image recognition to predict photonic band structures from previously unseen input data.
 
-The third section present the results of the simulation, along with graphical representations for final considerations about the accuracy of the method. Finally, a brief conclusion offers insights into the study’s findings and outlines potential next steps for further research.
+---
+
+## Project Scope and Structure
+
+### 1. Theoretical Background
+The first part of the study focuses on the theoretical foundations of photonic crystals, examining the connection between **solid-state physics** and **electromagnetism**, and explaining the physical origin of photonic band structures.
+
+This section also introduces the principles of **machine learning** and **convolutional neural networks**, with particular emphasis on the numerical operations underlying deep learning models that are relevant to this work.
+
+### 2. Methodology
+The methodology is divided into two main components:
+
+- **Photonic Crystal Simulations**  
+  Numerical simulations of photonic crystals are performed using **COMSOL Multiphysics** to obtain band structures for different geometrical and material configurations.
+
+- **CNN Architecture and Training**  
+  A step-by-step explanation of the convolutional neural network architecture is provided, detailing data preprocessing, model design, training procedure, and evaluation strategy used to predict band structures from simulation outputs.
+
+### 3. Results and Analysis
+The results section presents:
+- Simulated band structures
+- CNN predictions on unseen data
+- Graphical comparisons and accuracy metrics
+
+These results are used to assess the effectiveness and limitations of the ML-based approach.
+
+### 4. Conclusion and Future Work
+The study concludes with a summary of key findings and discusses potential extensions, including improvements to model accuracy, dataset expansion, and future applications of machine learning in photonic crystal research.
+
+---
+
+## Technologies Used
+- **COMSOL Multiphysics**
+- **Python**
+- NumPy, SciPy, Matplotlib
+- Machine Learning / Deep Learning (CNN)
+
+## Academic Context
+This repository contains a university project completed as part of an academic course.  
