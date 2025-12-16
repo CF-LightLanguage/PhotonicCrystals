@@ -43,11 +43,12 @@ Christensen, T., Loh, C., Picek, S., Jakobović, D., Jing, L., Fisher, S., Čepe
 
 ---
 
-## Technologies Used
+## Tools used
 - **COMSOL Multiphysics**
 - **Python**
 - NumPy, SciPy, Matplotlib
+- Pytorch
 - Machine Learning / Deep Learning (CNN)
 
 ## Academic Context
-This repository contains a university project completed as part of an academic course.  
+This repository contains a university project study completed as part of the master in Photonics at the University of Applied Sciences Munich (HM).  
