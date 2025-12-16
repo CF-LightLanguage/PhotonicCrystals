@@ -1,4 +1,5 @@
 # Machine Learning based Characterization of Photonic Crystals
+This repository contains a university project study completed as part of the master in Photonics at the University of Applied Sciences Munich (HM)
 
 ## Overview
 This repository presents a university project investigating the use of **machine learning (ML)** as a complementary method for the characterization of **photonic crystals (PhCs)**.
@@ -49,6 +50,3 @@ Christensen, T., Loh, C., Picek, S., Jakobović, D., Jing, L., Fisher, S., Čepe
 - NumPy, SciPy, Matplotlib
 - Pytorch
 - Machine Learning / Deep Learning (CNN)
-
-## Academic Context
-This repository contains a university project study completed as part of the master in Photonics at the University of Applied Sciences Munich (HM).  
