@@ -1,9 +1,11 @@
 # Machine Learning based Characterization of Photonic Crystals
 
 ## Overview
-This project investigates the potential of **machine learning (ML)** as a complementary tool in **photonics** for the characterization of **photonic crystals (PhCs)**.
+This repository presents a university project investigating the use of **machine learning (ML)** as a complementary method for the characterization of **photonic crystals (PhCs)**.
 
-Using **COMSOL Multiphysics**, electromagnetic wave propagation through photonic crystals with varying configurations is simulated and the resulting **band structures** are generated and visualized. Building on this simulation data, a **supervised learning approach** is applied, employing a **convolutional neural network (CNN)** for image recognition to predict photonic band structures from previously unseen input data.
+The study is **based on and inspired by** the work of Christensen et al. (2020), *Predictive and generative machine learning models for photonic crystals*, published in *Nanophotonics*. Following the core ideas of the article, numerical simulations are combined with supervised learning techniques to explore the prediction of photonic band structures.
+
+Using **COMSOL Multiphysics**, electromagnetic wave propagation through photonic crystals with various configurations is simulated and corresponding **band structures** are generated. These band structure images are then used to train a **convolutional neural network (CNN)** capable of predicting band structures from previously unseen input data.
 
 ---
 
@@ -33,6 +35,11 @@ These results are used to assess the effectiveness and limitations of the ML-bas
 
 ### 4. Conclusion and Future Work
 The study concludes with a summary of key findings and discusses potential extensions, including improvements to model accuracy, dataset expansion, and future applications of machine learning in photonic crystal research.
+
+## Reference
+Christensen, T., Loh, C., Picek, S., Jakobović, D., Jing, L., Fisher, S., Čeperić, V., Joannopoulos, J. D., & Soljačić, M.  
+**Predictive and generative machine learning models for photonic crystals**.  
+*Nanophotonics*, 2020.
 
 ---
 
