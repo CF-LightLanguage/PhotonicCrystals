@@ -1,4 +1,4 @@
-# Machine Learning–Assisted Characterization of Photonic Crystals
+# Machine Learning based Characterization of Photonic Crystals
 
 ## Overview
 This project investigates the potential of **machine learning (ML)** as a complementary tool in **photonics** for the characterization of **photonic crystals (PhCs)**.
