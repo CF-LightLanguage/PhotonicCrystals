@@ -8,7 +8,7 @@ The study is **based on and inspired by** the work of Christensen et al. (2020),
 
 <p align="center">
   <img src="figures/NN.png" alt="NN" width="400"/>
-  <img src="figures/1.png" alt="Band Structure" width="400"/>
+  <img src="figures/1.png" alt="Band Structure" width="100"/>
 </p>
 
 Using **COMSOL Multiphysics**, electromagnetic wave propagation through photonic crystals with various configurations is simulated and corresponding **band structures** are generated. These band structure images are then used to train a **convolutional neural network (CNN)** capable of predicting band structures from previously unseen input data.
