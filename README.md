@@ -1,4 +1,4 @@
-# Machine Learning based Characterization of Photonic Crystals
+ls# Machine Learning based Characterization of Photonic Crystals
 
 ## Overview
 This repository contains a university project study completed as part of the master in Photonics at the University of Applied Sciences Munich (HM) investigating the use of **machine learning** as a complementary method for the characterization of **photonic crystals**.
@@ -6,8 +6,8 @@ This repository contains a university project study completed as part of the mas
 The study is **based on and inspired by** the work of Christensen et al. (2020), *Predictive and generative machine learning models for photonic crystals*, published in *Nanophotonics*. Following the core ideas of the article, numerical simulations are combined with supervised learning techniques to explore the prediction of photonic band structures.
 
 <p align="center">
-  <img src="figures/NN.png" alt="NN" width="400"/>
-  <img src="figures/1.png" alt="Band Structure" width="110"/>
+  <img src="figures/NeuralNetwork.png" alt="NN" width="400"/>
+  <img src="figures/BandStructure.png" alt="Band Structure" width="110"/>
 </p>
 
 Using **COMSOL Multiphysics**, electromagnetic wave propagation through photonic crystals with various configurations is simulated and corresponding **band structures** are generated. These band structure images are then used to train a **convolutional neural network (CNN)** capable of predicting band structures from previously unseen input data.
