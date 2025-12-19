@@ -1,4 +1,4 @@
-ls# Machine Learning based Characterization of Photonic Crystals
+# Machine Learning based Characterization of Photonic Crystals
 
 ## Overview
 This repository contains a university project study completed as part of the master in Photonics at the University of Applied Sciences Munich (HM) investigating the use of **machine learning** as a complementary method for the characterization of **photonic crystals**.
